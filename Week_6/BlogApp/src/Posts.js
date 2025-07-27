@@ -28,6 +28,7 @@ loadPosts = async () => {
   componentDidMount() {
     this.loadPosts();
   }
+  
 
   componentDidCatch(error, info) {
   console.error('Error caught in componentDidCatch:', error, info);
