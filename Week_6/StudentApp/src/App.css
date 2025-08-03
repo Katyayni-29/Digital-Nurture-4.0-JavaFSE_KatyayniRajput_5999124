@@ -1,0 +1,29 @@
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1c1e26;
+  font-family: 'Poppins', sans-serif;
+  color: #eeee84;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+  padding: 40px;
+  width: 100%;
+  max-width: 600px;
+}
+.heading {
+  margin-bottom: 5rem; 
+  color: #048587;
+  font-size: 2rem;
+  font-weight: 1600;
+  text-decoration: underline;
+  font-style: italic;
+}
+

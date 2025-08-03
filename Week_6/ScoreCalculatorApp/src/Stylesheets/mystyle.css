@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ecf0f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.formatstyle {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 40px 30px;
+  width: 400px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  text-align: left;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+.Name, .School, .Total, .Score {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.Name span {
+  color: #2980b9;
+  font-weight: bold;
+}
+
+.School span {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.Total span {
+  color: #8e44ad;
+  font-weight: bold;
+}
+
+.Score span {
+  color: #27ae60;
+  font-weight: bold;
+}
