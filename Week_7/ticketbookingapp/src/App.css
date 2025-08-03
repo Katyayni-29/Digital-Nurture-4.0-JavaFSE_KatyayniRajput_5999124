@@ -1,0 +1,57 @@
+/* General App Styles */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f2f5;
+  text-align: center;
+}
+
+/* Card Container */
+.card {
+  background-color: #ffffff;
+  padding: 40px 60px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Greeting Text */
+.greeting-text {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.app-button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.app-button:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.login-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.logout-button {
+  background-color: #dc3545;
+  color: white;
+}
