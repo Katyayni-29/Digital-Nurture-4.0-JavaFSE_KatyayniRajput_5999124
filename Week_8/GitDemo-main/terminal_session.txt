@@ -45,17 +45,6 @@ katyaynirajput@Katyaynis-MacBook-Air GitDemo % mkdir log
 katyaynirajput@Katyaynis-MacBook-Air GitDemo % echo "Log entry" > log/app.log
 katyaynirajput@Katyaynis-MacBook-Air GitDemo % touch .gitignore
 katyaynirajput@Katyaynis-MacBook-Air GitDemo % code .gitignore
-katyaynirajput@Katyaynis-MacBook-Air GitDemo % # Ignore all .log files
-zsh: command not found: #
-katyaynirajput@Katyaynis-MacBook-Air GitDemo % # Ignore all .log files
-*.log
-
-# Ignore the log folder
-log/
-zsh: command not found: #
-zsh: command not found: error.log
-zsh: command not found: #
-zsh: permission denied: log/
 katyaynirajput@Katyaynis-MacBook-Air GitDemo % git status
 On branch main
 Your branch is up to date with 'origin/main'.
@@ -295,4 +284,5 @@ remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 To https://github.com/Katyayni-29/GitDemo.git
    929f8c0..a31488c  main -> main
 katyaynirajput@Katyaynis-MacBook-Air GitDemo % 
+
 
